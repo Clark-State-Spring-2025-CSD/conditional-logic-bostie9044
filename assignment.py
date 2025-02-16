@@ -13,3 +13,23 @@
 #The month is February and the current season is Winter.
 #Remember to also complete the flowchart. It is strongly advised that you do the flowchart first,
 #as this will help you write the code.
+
+Winter = 12,1,2
+Spring = 3,4,5
+Summer = 6,7,8
+Fall = 9,10,11
+
+month = int(input("What month is it? (1-12) "))
+
+season = 0
+
+if month == 6-8:
+    season = Summer 
+elif month == 9-11:
+    season = Fall
+elif month == 3-5:
+    season = Spring 
+else:
+    season = Winter
+
+print(f"The current season is {season}")
